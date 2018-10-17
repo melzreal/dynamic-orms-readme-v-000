@@ -13,6 +13,6 @@ song.save
 long = Song.new(name: "Hey Momma", album: "30")
 puts "song name: " + long.name
 puts "song album: " + long.album
-song.save
+long.save
 
 DB[:conn].execute("SELECT * FROM songs")
