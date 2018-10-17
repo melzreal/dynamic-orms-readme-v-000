@@ -10,7 +10,7 @@ puts "song name: " + song.name
 puts "song album: " + song.album
 song.save
 
-long = Song.new(name: "Hey Momma", album: "30")
+long = Song.new(name: "Hey Momma", album: "Albumny")
 puts "song name: " + long.name
 puts "song album: " + long.album
 long.save
